@@ -114,6 +114,29 @@ Open `http://localhost:5173` in your browser.
 
 > **Sample Dataset:** You can test the app immediately using the sample dataset provided in the repository code: `top_10_cricket_teams_stats.csv`.
 
+#### Sample Questions you can ask about the Cricket dataset:
+
+1. **"Which team has the highest win percentage across all their matches?"**
+   > Australia (62.2%)
+2. **"Who are the coaches for the teams that have won at least 2 World Cups?"**
+   > India (Gautam Gambhir), Australia (Andrew McDonald), West Indies (Daren Sammy)
+3. **"Show me the top 3 teams based on their T20I Rating."**
+   > England (268), India (268), Australia (265) 
+4. **"What is the average number of matches played by these top 10 teams?"**
+   > 869 matches
+5. **"Which team has won the most T20 World Cups, and who is their captain?"**
+   > Tie between India (Rohit Sharma), England (Harry Brook), and West Indies (Shai Hope) — all have won 2.
+6. **"List all teams where the Test Rank is better (lower) than their ODI Rank."**
+   > Australia (Test Rank 1, ODI Rank 3) and South Africa (Test Rank 2, ODI Rank 4)
+7. **"What is the total number of matches won by all teams combined?"**
+   > 4,570 matches won
+8. **"Which team has the lowest win percentage, and what is their home ground?"**
+   > Bangladesh (39.5%), Sher-e-Bangla Stadium
+9. **"Show me the teams that have won at least 1 World Cup, 1 Champions Trophy, and 1 T20 World Cup."**
+   > India, Australia, England, Pakistan, West Indies
+10. **"What is the correlation between the number of Matches Played and the Win Percentage?"**
+    > 0.338 (Indicates a weak positive correlation).
+
 ---
 
 ## How it Works (Under the Hood)
