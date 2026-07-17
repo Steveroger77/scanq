@@ -31,7 +31,7 @@ Question: {question}
 """
 
     payload = {
-        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_prompt}
@@ -78,7 +78,7 @@ def generate_suggested_questions(schema: str, sample_rows: str) -> list:
     user_prompt = f"Dataset Schema:\n{schema}\n\nSample Rows:\n{sample_rows}"
 
     payload = {
-        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
         "messages": [
             {"role": "system", "content": SUGGESTION_PROMPT},
             {"role": "user", "content": user_prompt}
