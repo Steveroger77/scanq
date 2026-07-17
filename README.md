@@ -165,32 +165,6 @@ The code execution is sandboxed — AI-generated code only has access to a limit
 
 ---
 
-## Deployment Recommendation
-
-### ✅ Recommended: **Render** (for this project)
-
-| | Render | Vercel |
-|---|--------|--------|
-| **Backend (FastAPI/Python)** | ✅ Native support | ❌ Requires serverless adapters — Vercel Functions don't support long-running Python processes well |
-| **Frontend (React/Vite)** | ✅ Static site deploy | ✅ Excellent |
-| **Free tier** | ✅ Available (spins down after inactivity) | ✅ Available |
-| **Environment variables** | ✅ Set in dashboard | ✅ Set in dashboard |
-| **Best for** | Full-stack apps with Python backends | Pure frontend or Next.js apps |
-
-### How to deploy on Render (1-Click Method)
-
-We have added a `render.yaml` blueprint to the repository, meaning you can deploy the entire app with **zero configuration** required.
-
-1. Go to your Render Dashboard.
-2. Click **New** -> **Blueprint**.
-3. Connect your GitHub repository (`scanq`).
-4. Render will automatically detect the settings and prompt you to enter your `OPENROUTER_API_KEY`.
-5. Click **Apply**.
-
-Render will automatically run the build script, install all dependencies for both the frontend and backend, and launch your unified full-stack application!
-
----
-
 ## Environment Variables
 
 | Variable | Where | Description |
