@@ -2,11 +2,10 @@
 
 **Ask plain-English questions about your data. Get instant AI-powered answers.**
 
+scanq is a lightweight full-stack web app that lets you upload a CSV or Excel file and query it in plain English — no SQL, no code, no formulas required. The AI reads your dataset, writes the Pandas code, runs it securely, and returns a clear human-readable answer along with a supporting data table.
 🚀 **Try it live:** [scanq-gdqv.onrender.com](https://scanq-gdqv.onrender.com) (Deployed on Render - *Note: Usage is limited per day due to free tier AI limits*)
 
 *(Note: If you want example datasets to use and test the app with, we have included some right here in this repository!)*
-
-scanq is a lightweight full-stack web app that lets you upload a CSV or Excel file and query it in plain English — no SQL, no code, no formulas required. The AI reads your dataset, writes the Pandas code, runs it securely, and returns a clear human-readable answer along with a supporting data table.
 
 
 ---
