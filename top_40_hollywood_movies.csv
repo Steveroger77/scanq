@@ -1,0 +1,41 @@
+Rank,Title,Release_Year,Genre,Director,Lead_Actor,Runtime_Minutes,Language,Country,IMDb_Rating,IMDb_Votes_Millions,Metascore,Rotten_Tomatoes_Percent,Budget_Million_USD,Worldwide_Box_Office_Billion_USD,Domestic_Box_Office_Million_USD,Production_Company,Oscar_Wins,Oscar_Nominations,MPAA_Rating
+1,Avatar,2009,Sci-Fi,James Cameron,Sam Worthington,162,English,USA,7.9,1.4,83,82,237,2.923,785,20th Century Fox,3,9,PG-13
+2,Avengers: Endgame,2019,Action,Anthony Russo,Robert Downey Jr.,181,English,USA,8.4,1.3,78,94,356,2.799,858,Marvel Studios,1,1,PG-13
+3,Titanic,1997,Romance,James Cameron,Leonardo DiCaprio,194,English,USA,7.9,1.3,75,88,200,2.264,674,Paramount Pictures,11,14,PG-13
+4,Star Wars: The Force Awakens,2015,Sci-Fi,J.J. Abrams,Daisy Ridley,138,English,USA,7.8,1.0,80,93,245,2.071,937,Lucasfilm,0,5,PG-13
+5,Avengers: Infinity War,2018,Action,Anthony Russo,Robert Downey Jr.,149,English,USA,8.4,1.2,68,85,316,2.052,679,Marvel Studios,0,1,PG-13
+6,Spider-Man: No Way Home,2021,Action,Jon Watts,Tom Holland,148,English,USA,8.2,0.95,71,93,200,1.921,814,Marvel Studios,0,1,PG-13
+7,Jurassic World,2015,Adventure,Colin Trevorrow,Chris Pratt,124,English,USA,6.9,0.72,59,72,150,1.672,653,Universal,0,0,PG-13
+8,The Lion King,2019,Animation,Jon Favreau,Donald Glover,118,English,USA,6.8,0.29,55,52,260,1.663,543,Disney,0,1,PG
+9,Inside Out 2,2024,Animation,Kelsey Mann,Amy Poehler,96,English,USA,7.8,0.18,73,91,200,1.699,653,Pixar,0,0,PG
+10,Top Gun: Maverick,2022,Action,Joseph Kosinski,Tom Cruise,131,English,USA,8.2,0.72,78,96,170,1.496,718,Paramount,1,6,PG-13
+11,Frozen II,2019,Animation,Chris Buck,Idina Menzel,103,English,USA,6.8,0.19,64,77,150,1.454,477,Disney,0,1,PG
+12,Barbie,2023,Comedy,Greta Gerwig,Margot Robbie,114,English,USA,6.8,0.67,80,88,145,1.447,636,Warner Bros.,1,8,PG-13
+13,The Super Mario Bros. Movie,2023,Animation,Aaron Horvath,Chris Pratt,92,English,USA,7.0,0.12,46,59,100,1.362,575,Universal,0,0,PG
+14,Black Panther,2018,Action,Ryan Coogler,Chadwick Boseman,134,English,USA,7.3,0.92,88,96,200,1.349,700,Marvel Studios,3,7,PG-13
+15,Harry Potter and the Deathly Hallows – Part 2,2011,Fantasy,David Yates,Daniel Radcliffe,130,English,UK,8.1,0.99,85,96,250,1.342,381,Warner Bros.,0,3,PG-13
+16,Deadpool & Wolverine,2024,Action,Shawn Levy,Ryan Reynolds,128,English,USA,8.0,0.15,56,79,200,1.338,636,Marvel Studios,0,0,R
+17,Star Wars: The Last Jedi,2017,Sci-Fi,Rian Johnson,Mark Hamill,152,English,USA,6.9,0.68,84,91,200,1.334,620,Lucasfilm,0,4,PG-13
+18,Jurassic World: Fallen Kingdom,2018,Adventure,J.A. Bayona,Chris Pratt,128,English,USA,6.1,0.35,51,47,170,1.31,418,Universal,0,0,PG-13
+19,Frozen,2013,Animation,Chris Buck,Kristen Bell,102,English,USA,7.4,0.7,75,90,150,1.29,401,Disney,2,2,PG
+20,Beauty and the Beast,2017,Fantasy,Bill Condon,Emma Watson,129,English,USA,7.1,0.33,65,71,160,1.266,504,Disney,0,2,PG
+21,Incredibles 2,2018,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+22,Iron Man 3,2013,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+23,Minions,2015,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+24,Captain America: Civil War,2016,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+25,Aquaman,2018,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+26,The Dark Knight,2008,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+27,Oppenheimer,2023,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+28,The Avengers,2012,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+29,Furious 7,2015,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+30,Captain Marvel,2019,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+31,Skyfall,2012,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+32,Transformers: Dark of the Moon,2011,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+33,Joker,2019,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+34,Toy Story 4,2019,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+35,Finding Dory,2016,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+36,The Dark Knight Rises,2012,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+37,Pirates of the Caribbean: Dead Man's Chest,2006,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+38,The Lord of the Rings: The Return of the King,2003,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+39,The Batman,2022,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13
+40,Interstellar,2014,Mixed,Various,Various,120,English,USA,8.0,0.5,75,85,180,1.0,350,Various,1,3,PG-13

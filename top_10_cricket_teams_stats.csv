@@ -1,0 +1,11 @@
+Rank,Team,Test_Rank,ODI_Rank,T20I_Rank,Test_Rating,ODI_Rating,T20I_Rating,Matches_Played,Matches_Won,Matches_Lost,Win_Percentage,World_Cups_Won,Champions_Trophy_Won,T20_World_Cups_Won,Home_Ground,Captain,Coach
+1,India,4,1,2,104,121,268,1050,650,310,61.9,2,2,2,Narendra Modi Stadium,Rohit Sharma,Gautam Gambhir
+2,Australia,1,3,3,131,110,265,980,610,280,62.2,6,2,1,MCG,Pat Cummins,Andrew McDonald
+3,England,5,7,1,99,96,268,990,520,380,52.5,1,1,2,Lord's,Harry Brook,Brendon McCullum
+4,New Zealand,3,2,4,106,113,260,890,470,300,52.8,0,1,0,Eden Park,Mitchell Santner,Gary Stead
+5,South Africa,2,4,5,119,106,255,860,450,280,52.3,0,1,0,Newlands,Temba Bavuma,Shukri Conrad
+6,Pakistan,6,5,7,76,102,250,910,490,330,53.8,1,1,1,Gaddafi Stadium,Mohammad Rizwan,Aaqib Javed
+7,Sri Lanka,7,6,6,75,98,252,890,440,340,49.4,1,0,1,R Premadasa Stadium,Charith Asalanka,Sanath Jayasuriya
+8,West Indies,8,8,8,74,90,245,940,420,410,44.7,2,1,2,Kensington Oval,Shai Hope,Daren Sammy
+9,Bangladesh,9,9,9,73,86,238,760,300,380,39.5,0,0,0,Sher-e-Bangla Stadium,Najmul Hossain Shanto,Phil Simmons
+10,Afghanistan,10,10,10,17,82,230,420,220,170,52.4,0,0,0,Kabul International Stadium,Hashmatullah Shahidi,Jonathan Trott

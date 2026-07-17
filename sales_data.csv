@@ -1,0 +1,801 @@
+OrderID,Date,Region,Category,Product,Sales,Profit,Quantity,Quarter
+ORD-1001,2023-06-17,North,Electronics,Monitor,1074,-76.57,3,Q2
+ORD-1002,2023-07-14,North,Clothing,Jacket,350,-15.18,7,Q3
+ORD-1003,2023-04-19,West,Electronics,Laptop,2256,356.74,6,Q2
+ORD-1004,2023-08-17,East,Electronics,Monitor,133,-10.92,7,Q3
+ORD-1005,2023-12-18,West,Electronics,Monitor,738,-49.99,6,Q4
+ORD-1006,2023-02-16,South,Office Supplies,Paper,180,69.6,9,Q1
+ORD-1007,2023-04-25,South,Electronics,Tablet,297,23.5,9,Q2
+ORD-1008,2023-05-26,North,Clothing,Sneakers,274,-7.25,1,Q2
+ORD-1009,2023-04-17,West,Electronics,Laptop,258,21.81,6,Q2
+ORD-1010,2023-12-04,West,Office Supplies,Pens,273,-24.33,3,Q4
+ORD-1011,2023-09-01,South,Office Supplies,Paper,402,18.78,6,Q3
+ORD-1012,2023-08-14,West,Electronics,Monitor,1850,316.96,10,Q3
+ORD-1013,2023-03-08,East,Furniture,Chair,1995,-161.91,5,Q1
+ORD-1014,2023-11-14,East,Electronics,Monitor,2464,752.44,8,Q4
+ORD-1015,2023-10-01,South,Furniture,Chair,884,-13.8,4,Q4
+ORD-1016,2023-02-02,East,Office Supplies,Binders,2568,494.22,8,Q1
+ORD-1017,2023-04-01,West,Furniture,Desk,720,235.73,3,Q2
+ORD-1018,2023-10-19,East,Furniture,Table,2646,618.27,9,Q4
+ORD-1019,2023-05-09,North,Furniture,Desk,2658,281.14,6,Q2
+ORD-1020,2023-11-14,North,Clothing,Sneakers,1305,145.67,9,Q4
+ORD-1021,2023-11-05,East,Electronics,Monitor,2886,1142.81,6,Q4
+ORD-1022,2023-02-13,North,Electronics,Smartphone,528,36.91,8,Q1
+ORD-1023,2023-12-31,East,Clothing,T-Shirt,326,13.33,1,Q4
+ORD-1024,2023-07-27,East,Electronics,Smartphone,918,9.03,6,Q3
+ORD-1025,2023-09-06,North,Furniture,Sofa,1796,380.98,4,Q3
+ORD-1026,2023-11-05,West,Furniture,Table,792,212.44,9,Q4
+ORD-1027,2023-11-25,East,Electronics,Smartphone,815,283.04,5,Q4
+ORD-1028,2023-04-02,South,Electronics,Monitor,294,5.55,7,Q2
+ORD-1029,2023-07-10,North,Furniture,Sofa,1698,492.89,6,Q3
+ORD-1030,2023-10-12,North,Electronics,Tablet,2030,26.59,10,Q4
+ORD-1031,2023-07-14,East,Office Supplies,Pens,2418,714.6,6,Q3
+ORD-1032,2023-05-29,North,Office Supplies,Stapler,3776,1168.15,8,Q2
+ORD-1033,2023-04-14,West,Office Supplies,Stapler,1712,89.84,8,Q2
+ORD-1034,2023-08-17,North,Furniture,Desk,830,-31.32,2,Q3
+ORD-1035,2023-08-13,North,Electronics,Smartphone,2359,855.22,7,Q3
+ORD-1036,2023-07-31,North,Electronics,Monitor,1464,243.29,4,Q3
+ORD-1037,2023-01-23,West,Furniture,Table,1885,293.22,5,Q1
+ORD-1038,2023-02-19,North,Electronics,Smartphone,270,60.11,9,Q1
+ORD-1039,2023-04-16,East,Office Supplies,Binders,950,164.03,5,Q2
+ORD-1040,2023-10-07,South,Office Supplies,Stapler,36,2.65,2,Q4
+ORD-1041,2023-06-08,East,Clothing,Jacket,1188,288.86,3,Q2
+ORD-1042,2023-06-26,East,Furniture,Desk,2166,-33.19,6,Q2
+ORD-1043,2023-12-13,East,Electronics,Monitor,1035,330.93,3,Q4
+ORD-1044,2023-12-21,North,Furniture,Desk,4370,1572.93,10,Q4
+ORD-1045,2023-09-12,East,Office Supplies,Binders,3112,18.56,8,Q3
+ORD-1046,2023-05-08,South,Office Supplies,Paper,1164,347.04,4,Q2
+ORD-1047,2023-08-02,West,Office Supplies,Binders,2490,569.39,5,Q3
+ORD-1048,2023-04-03,East,Furniture,Table,610,125.51,2,Q2
+ORD-1049,2023-01-02,South,Clothing,T-Shirt,1113,420.69,3,Q1
+ORD-1050,2023-05-20,West,Office Supplies,Stapler,369,-21.07,1,Q2
+ORD-1051,2023-01-15,North,Furniture,Desk,184,48.38,4,Q1
+ORD-1052,2023-06-01,South,Furniture,Sofa,2380,880.35,7,Q2
+ORD-1053,2023-06-11,West,Office Supplies,Pens,438,113.8,3,Q2
+ORD-1054,2023-01-16,East,Furniture,Table,1745,154.74,5,Q1
+ORD-1055,2023-10-09,West,Clothing,Jacket,1380,516.13,3,Q4
+ORD-1056,2023-10-09,North,Electronics,Laptop,996,394.45,2,Q4
+ORD-1057,2023-09-30,South,Clothing,Sneakers,2485,497.36,7,Q3
+ORD-1058,2023-01-16,South,Electronics,Tablet,902,146.14,2,Q1
+ORD-1059,2023-06-01,East,Clothing,Jeans,2355,120.93,5,Q2
+ORD-1060,2023-04-22,East,Electronics,Tablet,1400,-53.55,4,Q2
+ORD-1061,2023-03-18,West,Office Supplies,Stapler,602,203.44,2,Q1
+ORD-1062,2023-07-28,South,Furniture,Sofa,1275,329.34,5,Q3
+ORD-1063,2023-01-14,North,Clothing,Jeans,232,26.41,4,Q1
+ORD-1064,2023-04-08,North,Electronics,Monitor,848,198.1,4,Q2
+ORD-1065,2023-03-12,South,Electronics,Monitor,910,180.97,7,Q1
+ORD-1066,2023-06-11,North,Furniture,Sofa,1536,484.74,6,Q2
+ORD-1067,2023-04-20,West,Office Supplies,Binders,1050,194.35,6,Q2
+ORD-1068,2023-08-04,East,Clothing,Sneakers,556,204.49,2,Q3
+ORD-1069,2023-03-04,South,Office Supplies,Paper,780,-9.71,2,Q1
+ORD-1070,2023-07-05,West,Furniture,Sofa,620,-5.33,4,Q3
+ORD-1071,2023-10-03,South,Electronics,Smartphone,1152,256.37,4,Q4
+ORD-1072,2023-01-07,South,Clothing,Jacket,543,55.39,3,Q1
+ORD-1073,2023-07-27,East,Office Supplies,Stapler,740,-6.86,10,Q3
+ORD-1074,2023-05-11,South,Electronics,Tablet,3479,588.08,7,Q2
+ORD-1075,2023-01-21,West,Furniture,Desk,1371,506.6,3,Q1
+ORD-1076,2023-11-17,South,Electronics,Tablet,1144,99.99,4,Q4
+ORD-1077,2023-05-31,West,Office Supplies,Binders,2295,794.71,5,Q2
+ORD-1078,2023-12-19,South,Electronics,Laptop,1080,243.82,8,Q4
+ORD-1079,2023-12-29,North,Electronics,Smartphone,54,19.1,3,Q4
+ORD-1080,2023-07-26,West,Clothing,Sneakers,1944,209.07,4,Q3
+ORD-1081,2023-04-18,East,Electronics,Monitor,145,35.65,5,Q2
+ORD-1082,2023-01-03,South,Clothing,Jeans,345,-11.9,5,Q1
+ORD-1083,2023-11-30,South,Clothing,Jeans,65,3.45,1,Q4
+ORD-1084,2023-07-29,West,Office Supplies,Paper,792,230.44,6,Q3
+ORD-1085,2023-07-14,South,Office Supplies,Paper,608,-37.38,2,Q3
+ORD-1086,2023-09-18,West,Electronics,Tablet,2316,520.0,6,Q3
+ORD-1087,2023-12-23,North,Clothing,Jacket,676,171.17,4,Q4
+ORD-1088,2023-12-17,East,Electronics,Monitor,4920,501.99,10,Q4
+ORD-1089,2023-11-28,West,Electronics,Smartphone,2340,873.91,5,Q4
+ORD-1090,2023-06-28,North,Clothing,Jacket,325,109.85,1,Q2
+ORD-1091,2023-12-19,East,Furniture,Chair,1920,-179.77,5,Q4
+ORD-1092,2023-10-13,West,Office Supplies,Stapler,1056,258.74,6,Q4
+ORD-1093,2023-04-05,East,Furniture,Table,3500,170.6,10,Q2
+ORD-1094,2023-07-19,North,Furniture,Chair,412,66.36,1,Q3
+ORD-1095,2023-11-05,North,Furniture,Chair,135,18.75,9,Q4
+ORD-1096,2023-06-13,North,Office Supplies,Stapler,471,181.88,1,Q2
+ORD-1097,2023-01-06,West,Clothing,Sneakers,1984,-73.65,8,Q1
+ORD-1098,2023-12-26,East,Furniture,Desk,3672,-122.62,9,Q4
+ORD-1099,2023-11-22,South,Electronics,Tablet,855,59.15,3,Q4
+ORD-1100,2023-01-10,North,Clothing,Sneakers,1548,592.31,9,Q1
+ORD-1101,2023-05-05,West,Office Supplies,Paper,208,29.55,8,Q2
+ORD-1102,2023-02-06,North,Furniture,Sofa,106,3.69,1,Q1
+ORD-1103,2023-05-08,West,Electronics,Tablet,420,52.6,6,Q2
+ORD-1104,2023-02-11,West,Electronics,Monitor,1368,358.6,8,Q1
+ORD-1105,2023-11-05,North,Clothing,Jeans,564,14.79,3,Q4
+ORD-1106,2023-01-07,North,Furniture,Sofa,2877,-210.16,7,Q1
+ORD-1107,2023-06-19,East,Furniture,Sofa,456,110.45,4,Q2
+ORD-1108,2023-08-08,East,Clothing,Jeans,170,34.5,2,Q3
+ORD-1109,2023-10-26,North,Electronics,Monitor,609,-50.07,7,Q4
+ORD-1110,2023-07-28,West,Furniture,Chair,1076,1.0,4,Q3
+ORD-1111,2023-06-15,West,Office Supplies,Stapler,1056,-55.36,6,Q2
+ORD-1112,2023-01-26,West,Office Supplies,Stapler,1060,-35.42,10,Q1
+ORD-1113,2023-03-05,North,Clothing,T-Shirt,31,3.47,1,Q1
+ORD-1114,2023-08-15,West,Office Supplies,Pens,2224,772.87,8,Q3
+ORD-1115,2023-09-21,East,Furniture,Table,2072,742.27,7,Q3
+ORD-1116,2023-09-15,South,Furniture,Sofa,824,106.19,2,Q3
+ORD-1117,2023-03-30,South,Clothing,Jeans,455,164.31,7,Q1
+ORD-1118,2023-05-30,West,Furniture,Table,446,35.89,2,Q2
+ORD-1119,2023-07-01,South,Clothing,Jeans,3906,1175.53,9,Q3
+ORD-1120,2023-06-20,South,Electronics,Smartphone,524,153.33,2,Q2
+ORD-1121,2023-03-16,North,Furniture,Table,1335,229.79,3,Q1
+ORD-1122,2023-07-28,West,Office Supplies,Paper,275,64.77,1,Q3
+ORD-1123,2023-07-13,West,Office Supplies,Pens,194,16.76,1,Q3
+ORD-1124,2023-11-22,South,Electronics,Monitor,2130,599.72,6,Q4
+ORD-1125,2023-10-22,East,Electronics,Smartphone,826,59.85,7,Q4
+ORD-1126,2023-07-25,North,Clothing,Jacket,882,75.09,2,Q3
+ORD-1127,2023-10-10,North,Clothing,Jacket,85,24.93,1,Q4
+ORD-1128,2023-01-15,East,Clothing,Jeans,956,313.58,2,Q1
+ORD-1129,2023-04-27,South,Furniture,Table,3303,193.81,9,Q2
+ORD-1130,2023-11-03,West,Electronics,Tablet,1666,-125.04,7,Q4
+ORD-1131,2023-10-11,West,Clothing,Jacket,70,22.78,1,Q4
+ORD-1132,2023-11-28,East,Clothing,Jacket,119,13.37,1,Q4
+ORD-1133,2023-08-19,East,Clothing,Jacket,588,173.51,3,Q3
+ORD-1134,2023-10-28,West,Electronics,Tablet,392,111.02,4,Q4
+ORD-1135,2023-11-11,South,Office Supplies,Stapler,462,129.84,2,Q4
+ORD-1136,2023-07-20,East,Electronics,Laptop,2130,214.99,5,Q3
+ORD-1137,2023-12-10,North,Electronics,Smartphone,520,25.51,8,Q4
+ORD-1138,2023-06-13,North,Clothing,Jeans,420,123.06,4,Q2
+ORD-1139,2023-11-09,South,Office Supplies,Stapler,1704,111.19,8,Q4
+ORD-1140,2023-08-19,East,Clothing,Jeans,2214,470.17,9,Q3
+ORD-1141,2023-04-24,West,Clothing,T-Shirt,125,-10.67,1,Q2
+ORD-1142,2023-09-10,North,Office Supplies,Stapler,403,45.71,1,Q3
+ORD-1143,2023-05-31,South,Office Supplies,Pens,530,-20.13,10,Q2
+ORD-1144,2023-09-18,West,Clothing,Sneakers,202,55.95,2,Q3
+ORD-1145,2023-01-29,South,Electronics,Laptop,320,38.51,5,Q1
+ORD-1146,2023-10-23,North,Office Supplies,Paper,412,122.0,1,Q4
+ORD-1147,2023-07-15,South,Office Supplies,Pens,3094,221.1,7,Q3
+ORD-1148,2023-04-04,West,Electronics,Smartphone,312,76.21,6,Q2
+ORD-1149,2023-02-03,West,Electronics,Laptop,597,231.01,3,Q1
+ORD-1150,2023-06-14,West,Office Supplies,Pens,788,151.28,4,Q2
+ORD-1151,2023-10-30,North,Clothing,Jacket,1386,375.7,7,Q4
+ORD-1152,2023-09-17,North,Clothing,Jacket,976,149.05,8,Q3
+ORD-1153,2023-10-01,West,Furniture,Table,3388,550.94,7,Q4
+ORD-1154,2023-04-22,North,Electronics,Laptop,154,32.86,7,Q2
+ORD-1155,2023-09-25,West,Furniture,Chair,720,-16.11,2,Q3
+ORD-1156,2023-06-14,South,Furniture,Chair,2106,169.37,6,Q2
+ORD-1157,2023-04-19,East,Electronics,Monitor,2970,-184.29,10,Q2
+ORD-1158,2023-03-18,West,Electronics,Smartphone,783,89.98,3,Q1
+ORD-1159,2023-06-18,North,Electronics,Smartphone,2455,161.48,5,Q2
+ORD-1160,2023-10-26,North,Clothing,Sneakers,279,96.55,1,Q4
+ORD-1161,2023-01-23,West,Clothing,Jeans,394,125.71,2,Q1
+ORD-1162,2023-03-25,East,Furniture,Chair,2435,961.5,5,Q1
+ORD-1163,2023-11-18,West,Clothing,Jacket,996,-32.97,6,Q4
+ORD-1164,2023-07-13,East,Clothing,Jeans,347,15.08,1,Q3
+ORD-1165,2023-03-13,North,Electronics,Monitor,1644,16.97,6,Q1
+ORD-1166,2023-05-27,South,Office Supplies,Paper,2904,311.61,6,Q2
+ORD-1167,2023-12-10,East,Electronics,Smartphone,470,60.51,10,Q4
+ORD-1168,2023-08-17,East,Office Supplies,Pens,978,55.8,2,Q3
+ORD-1169,2023-07-03,South,Electronics,Laptop,2660,409.57,10,Q3
+ORD-1170,2023-08-12,North,Clothing,Sneakers,2960,542.84,8,Q3
+ORD-1171,2023-01-19,South,Furniture,Sofa,112,40.8,2,Q1
+ORD-1172,2023-01-19,South,Furniture,Desk,2475,-166.34,9,Q1
+ORD-1173,2023-03-25,East,Clothing,Sneakers,102,18.52,2,Q1
+ORD-1174,2023-05-08,East,Electronics,Monitor,3630,1256.03,10,Q2
+ORD-1175,2023-03-31,East,Electronics,Smartphone,2730,-62.82,7,Q1
+ORD-1176,2023-07-08,North,Clothing,T-Shirt,2436,83.24,6,Q3
+ORD-1177,2023-07-20,East,Electronics,Laptop,582,50.21,6,Q3
+ORD-1178,2023-10-11,West,Clothing,Sneakers,2394,206.03,7,Q4
+ORD-1179,2023-01-24,West,Office Supplies,Stapler,522,185.33,3,Q1
+ORD-1180,2023-09-17,North,Furniture,Table,780,138.26,6,Q3
+ORD-1181,2023-04-22,North,Clothing,T-Shirt,2550,585.9,10,Q2
+ORD-1182,2023-02-13,East,Electronics,Tablet,996,194.35,3,Q1
+ORD-1183,2023-04-22,East,Clothing,T-Shirt,352,46.38,1,Q2
+ORD-1184,2023-05-10,South,Clothing,Sneakers,2235,195.86,5,Q2
+ORD-1185,2023-02-16,South,Furniture,Table,327,119.7,3,Q1
+ORD-1186,2023-05-15,North,Furniture,Desk,116,34.97,2,Q2
+ORD-1187,2023-03-02,South,Electronics,Tablet,86,26.98,2,Q1
+ORD-1188,2023-06-09,East,Furniture,Table,1917,381.62,9,Q2
+ORD-1189,2023-08-31,South,Clothing,Jacket,1293,54.43,3,Q3
+ORD-1190,2023-08-06,West,Furniture,Chair,195,62.73,1,Q3
+ORD-1191,2023-02-09,South,Electronics,Tablet,579,225.09,3,Q1
+ORD-1192,2023-08-28,South,Electronics,Smartphone,1008,298.61,3,Q3
+ORD-1193,2023-10-05,North,Electronics,Laptop,1245,-6.45,5,Q4
+ORD-1194,2023-09-23,South,Office Supplies,Paper,3150,270.54,7,Q3
+ORD-1195,2023-04-05,North,Clothing,Jeans,455,32.85,7,Q2
+ORD-1196,2023-11-24,East,Furniture,Chair,278,92.02,2,Q4
+ORD-1197,2023-06-16,West,Furniture,Chair,492,173.79,6,Q2
+ORD-1198,2023-03-02,North,Furniture,Table,123,5.49,1,Q1
+ORD-1199,2023-04-16,South,Electronics,Smartphone,2058,27.72,7,Q2
+ORD-1200,2023-09-13,West,Electronics,Smartphone,297,86.28,3,Q3
+ORD-1201,2023-11-06,North,Electronics,Monitor,1584,-141.26,8,Q4
+ORD-1202,2023-06-13,South,Furniture,Desk,2562,862.81,6,Q2
+ORD-1203,2023-02-09,North,Clothing,Sneakers,1032,295.84,8,Q1
+ORD-1204,2023-02-23,North,Office Supplies,Paper,2696,555.02,8,Q1
+ORD-1205,2023-08-24,North,Furniture,Sofa,60,-2.33,6,Q3
+ORD-1206,2023-11-22,East,Clothing,Jeans,348,10.14,4,Q4
+ORD-1207,2023-12-11,West,Office Supplies,Stapler,52,19.83,1,Q4
+ORD-1208,2023-09-10,West,Office Supplies,Binders,2889,-196.76,9,Q3
+ORD-1209,2023-05-18,South,Office Supplies,Pens,1015,139.29,5,Q2
+ORD-1210,2023-10-16,North,Office Supplies,Pens,1312,240.15,8,Q4
+ORD-1211,2023-01-30,South,Electronics,Laptop,2296,726.15,7,Q1
+ORD-1212,2023-12-04,East,Electronics,Monitor,396,0.75,6,Q4
+ORD-1213,2023-08-01,East,Clothing,T-Shirt,315,-25.61,1,Q3
+ORD-1214,2023-10-10,West,Clothing,Jeans,2970,99.2,9,Q4
+ORD-1215,2023-10-15,South,Clothing,Jeans,73,9.98,1,Q4
+ORD-1216,2023-11-12,East,Office Supplies,Stapler,972,102.42,6,Q4
+ORD-1217,2023-12-16,East,Electronics,Tablet,210,21.44,3,Q4
+ORD-1218,2023-09-08,East,Furniture,Table,717,267.74,3,Q3
+ORD-1219,2023-07-02,West,Clothing,Jacket,196,-18.91,4,Q3
+ORD-1220,2023-02-03,South,Furniture,Chair,3152,996.01,8,Q1
+ORD-1221,2023-02-17,East,Furniture,Sofa,2330,-220.93,10,Q1
+ORD-1222,2023-11-16,South,Electronics,Smartphone,1221,-32.69,3,Q4
+ORD-1223,2023-05-05,East,Clothing,Jacket,3728,1099.25,8,Q2
+ORD-1224,2023-07-10,East,Office Supplies,Binders,280,31.8,1,Q3
+ORD-1225,2023-05-15,East,Clothing,Sneakers,2016,114.42,6,Q2
+ORD-1226,2023-04-01,West,Office Supplies,Pens,2275,846.47,7,Q2
+ORD-1227,2023-06-22,South,Clothing,Jeans,2233,-25.7,7,Q2
+ORD-1228,2023-05-07,East,Electronics,Tablet,1876,-96.97,7,Q2
+ORD-1229,2023-09-25,West,Electronics,Smartphone,153,44.33,9,Q3
+ORD-1230,2023-01-13,West,Clothing,Sneakers,1044,22.89,6,Q1
+ORD-1231,2023-11-25,West,Office Supplies,Binders,4000,868.66,8,Q4
+ORD-1232,2023-08-27,South,Office Supplies,Binders,1320,-114.82,5,Q3
+ORD-1233,2023-10-11,South,Electronics,Monitor,840,70.93,5,Q4
+ORD-1234,2023-01-05,North,Clothing,Jeans,2030,38.6,10,Q1
+ORD-1235,2023-05-16,South,Furniture,Chair,3420,210.53,9,Q2
+ORD-1236,2023-10-12,West,Clothing,Jeans,3582,-91.49,9,Q4
+ORD-1237,2023-02-05,South,Office Supplies,Pens,666,104.69,6,Q1
+ORD-1238,2023-11-28,West,Clothing,Jeans,225,46.64,9,Q4
+ORD-1239,2023-06-26,West,Furniture,Desk,832,241.58,4,Q2
+ORD-1240,2023-11-29,South,Electronics,Tablet,237,29.22,1,Q4
+ORD-1241,2023-11-10,North,Clothing,Jacket,370,-35.25,2,Q4
+ORD-1242,2023-07-27,East,Furniture,Desk,1981,523.18,7,Q3
+ORD-1243,2023-12-27,East,Electronics,Tablet,855,222.35,5,Q4
+ORD-1244,2023-08-02,South,Electronics,Tablet,3100,109.19,10,Q3
+ORD-1245,2023-09-02,East,Furniture,Desk,169,33.75,1,Q3
+ORD-1246,2023-09-12,North,Electronics,Monitor,280,81.68,1,Q3
+ORD-1247,2023-10-20,South,Clothing,Jeans,329,124.34,1,Q4
+ORD-1248,2023-05-16,South,Clothing,T-Shirt,2415,802.82,5,Q2
+ORD-1249,2023-07-29,West,Clothing,Sneakers,834,-13.36,3,Q3
+ORD-1250,2023-10-29,South,Clothing,Jeans,928,144.29,2,Q4
+ORD-1251,2023-06-24,South,Clothing,Sneakers,812,182.57,7,Q2
+ORD-1252,2023-03-13,South,Electronics,Laptop,1435,311.52,5,Q1
+ORD-1253,2023-05-20,East,Clothing,Jacket,2943,-224.97,9,Q2
+ORD-1254,2023-05-28,South,Office Supplies,Pens,2688,226.97,7,Q2
+ORD-1255,2023-02-24,West,Furniture,Desk,912,7.17,3,Q1
+ORD-1256,2023-08-20,North,Electronics,Monitor,3600,1000.41,9,Q3
+ORD-1257,2023-09-16,West,Clothing,Jacket,120,19.89,10,Q3
+ORD-1258,2023-01-28,North,Electronics,Laptop,3942,-382.51,9,Q1
+ORD-1259,2023-02-12,South,Furniture,Desk,1383,534.54,3,Q1
+ORD-1260,2023-12-01,North,Office Supplies,Paper,3104,327.36,8,Q4
+ORD-1261,2023-07-08,West,Electronics,Monitor,146,17.04,1,Q3
+ORD-1262,2023-10-09,West,Clothing,T-Shirt,1548,594.9,4,Q4
+ORD-1263,2023-01-22,South,Electronics,Monitor,1088,221.92,4,Q1
+ORD-1264,2023-11-25,North,Electronics,Monitor,2215,627.51,5,Q4
+ORD-1265,2023-11-15,East,Clothing,Sneakers,3101,-36.0,7,Q4
+ORD-1266,2023-10-22,North,Clothing,Jeans,1386,118.6,9,Q4
+ORD-1267,2023-05-05,North,Furniture,Sofa,1720,665.59,5,Q2
+ORD-1268,2023-03-01,North,Electronics,Laptop,2088,156.64,9,Q1
+ORD-1269,2023-09-27,North,Office Supplies,Pens,3310,-198.06,10,Q3
+ORD-1270,2023-09-22,South,Office Supplies,Paper,1143,313.6,9,Q3
+ORD-1271,2023-05-08,North,Electronics,Tablet,924,232.12,2,Q2
+ORD-1272,2023-05-17,West,Clothing,Jacket,2695,446.15,7,Q2
+ORD-1273,2023-01-09,East,Furniture,Sofa,43,6.25,1,Q1
+ORD-1274,2023-04-15,North,Electronics,Laptop,207,25.23,1,Q2
+ORD-1275,2023-02-22,North,Office Supplies,Binders,1635,-149.88,5,Q1
+ORD-1276,2023-07-25,South,Clothing,Jeans,2504,213.94,8,Q3
+ORD-1277,2023-01-21,East,Office Supplies,Binders,1875,466.04,5,Q1
+ORD-1278,2023-01-16,West,Office Supplies,Stapler,1020,88.19,6,Q1
+ORD-1279,2023-06-03,East,Clothing,T-Shirt,180,13.71,3,Q2
+ORD-1280,2023-06-10,North,Clothing,Jacket,187,17.62,1,Q2
+ORD-1281,2023-01-16,West,Clothing,Jeans,132,50.17,6,Q1
+ORD-1282,2023-07-01,East,Electronics,Laptop,930,-64.08,5,Q3
+ORD-1283,2023-06-16,South,Office Supplies,Pens,4170,218.73,10,Q2
+ORD-1284,2023-06-29,East,Office Supplies,Stapler,1293,33.69,3,Q2
+ORD-1285,2023-02-23,West,Clothing,Jeans,4160,285.34,10,Q1
+ORD-1286,2023-10-07,West,Office Supplies,Stapler,448,58.59,1,Q4
+ORD-1287,2023-03-30,East,Clothing,Jacket,672,180.6,7,Q1
+ORD-1288,2023-07-30,South,Electronics,Tablet,768,274.83,2,Q3
+ORD-1289,2023-06-18,West,Furniture,Sofa,277,-13.46,1,Q2
+ORD-1290,2023-12-03,South,Electronics,Tablet,4870,-12.63,10,Q4
+ORD-1291,2023-08-04,North,Electronics,Smartphone,195,18.46,1,Q3
+ORD-1292,2023-04-17,North,Clothing,Jacket,2970,271.59,10,Q2
+ORD-1293,2023-07-14,North,Electronics,Tablet,2454,705.75,6,Q3
+ORD-1294,2023-09-19,South,Clothing,T-Shirt,790,276.66,10,Q3
+ORD-1295,2023-11-12,West,Electronics,Smartphone,962,380.72,2,Q4
+ORD-1296,2023-05-14,West,Electronics,Monitor,2832,421.22,6,Q2
+ORD-1297,2023-11-24,South,Electronics,Monitor,453,95.17,1,Q4
+ORD-1298,2023-03-16,East,Office Supplies,Pens,1971,175.12,9,Q1
+ORD-1299,2023-05-11,West,Electronics,Smartphone,560,196.7,4,Q2
+ORD-1300,2023-12-05,North,Office Supplies,Paper,4104,1559.75,9,Q4
+ORD-1301,2023-01-28,North,Furniture,Table,2429,656.91,7,Q1
+ORD-1302,2023-03-02,East,Electronics,Tablet,990,157.87,3,Q1
+ORD-1303,2023-06-17,South,Furniture,Desk,780,86.49,10,Q2
+ORD-1304,2023-04-19,East,Office Supplies,Pens,2295,541.07,9,Q2
+ORD-1305,2023-12-04,North,Furniture,Sofa,752,38.82,8,Q4
+ORD-1306,2023-07-07,West,Electronics,Smartphone,3032,1005.2,8,Q3
+ORD-1307,2023-08-22,West,Furniture,Sofa,104,30.61,2,Q3
+ORD-1308,2023-04-28,East,Office Supplies,Binders,3150,-125.16,10,Q2
+ORD-1309,2023-07-17,North,Furniture,Desk,3762,828.06,9,Q3
+ORD-1310,2023-06-07,West,Electronics,Laptop,2230,639.8,10,Q2
+ORD-1311,2023-11-02,South,Clothing,Jeans,286,-0.87,1,Q4
+ORD-1312,2023-10-14,West,Furniture,Sofa,1824,222.43,4,Q4
+ORD-1313,2023-07-25,North,Electronics,Laptop,90,3.84,5,Q3
+ORD-1314,2023-08-08,North,Furniture,Table,297,-8.29,3,Q3
+ORD-1315,2023-12-28,North,Furniture,Sofa,3512,1128.97,8,Q4
+ORD-1316,2023-12-23,East,Electronics,Smartphone,394,52.4,1,Q4
+ORD-1317,2023-07-15,North,Furniture,Desk,229,66.41,1,Q3
+ORD-1318,2023-02-13,North,Electronics,Monitor,3440,630.27,8,Q1
+ORD-1319,2023-09-12,North,Electronics,Tablet,4760,1612.39,10,Q3
+ORD-1320,2023-09-20,East,Electronics,Laptop,1758,89.2,6,Q3
+ORD-1321,2023-08-06,South,Office Supplies,Stapler,408,137.15,8,Q3
+ORD-1322,2023-06-24,West,Furniture,Table,1125,307.29,5,Q2
+ORD-1323,2023-06-30,North,Office Supplies,Binders,371,-36.28,7,Q2
+ORD-1324,2023-03-26,West,Office Supplies,Binders,1278,157.2,3,Q1
+ORD-1325,2023-07-16,South,Furniture,Sofa,1482,505.68,6,Q3
+ORD-1326,2023-09-10,North,Furniture,Desk,387,3.27,3,Q3
+ORD-1327,2023-07-15,North,Furniture,Sofa,2443,812.04,7,Q3
+ORD-1328,2023-08-15,East,Office Supplies,Binders,417,74.64,1,Q3
+ORD-1329,2023-09-07,North,Clothing,Jeans,348,-19.0,4,Q3
+ORD-1330,2023-04-18,South,Furniture,Desk,2058,276.92,6,Q2
+ORD-1331,2023-09-29,South,Office Supplies,Binders,1470,341.12,6,Q3
+ORD-1332,2023-02-24,North,Furniture,Table,2375,19.13,5,Q1
+ORD-1333,2023-02-28,West,Office Supplies,Binders,2556,824.23,9,Q1
+ORD-1334,2023-09-30,West,Electronics,Monitor,2933,27.5,7,Q3
+ORD-1335,2023-09-03,West,Electronics,Monitor,136,-9.1,1,Q3
+ORD-1336,2023-02-11,West,Clothing,Sneakers,3582,-234.2,9,Q1
+ORD-1337,2023-11-11,East,Clothing,Jeans,2235,519.02,5,Q4
+ORD-1338,2023-01-16,West,Office Supplies,Paper,1355,400.53,5,Q1
+ORD-1339,2023-12-25,South,Office Supplies,Stapler,174,10.6,3,Q4
+ORD-1340,2023-04-12,East,Office Supplies,Paper,4880,305.87,10,Q2
+ORD-1341,2023-08-12,East,Clothing,T-Shirt,400,6.77,10,Q3
+ORD-1342,2023-08-11,South,Furniture,Sofa,297,85.92,9,Q3
+ORD-1343,2023-11-22,East,Clothing,Jacket,432,1.28,9,Q4
+ORD-1344,2023-08-01,East,Office Supplies,Paper,1072,55.16,8,Q3
+ORD-1345,2023-11-21,North,Furniture,Desk,1917,765.62,9,Q4
+ORD-1346,2023-06-08,East,Electronics,Monitor,1956,-106.01,6,Q2
+ORD-1347,2023-05-02,South,Office Supplies,Binders,1547,455.8,7,Q2
+ORD-1348,2023-09-08,East,Electronics,Tablet,625,234.61,5,Q3
+ORD-1349,2023-07-22,East,Electronics,Monitor,343,101.44,1,Q3
+ORD-1350,2023-07-07,South,Clothing,T-Shirt,704,18.73,4,Q3
+ORD-1351,2023-05-01,South,Clothing,Jeans,233,86.52,1,Q2
+ORD-1352,2023-12-11,West,Clothing,T-Shirt,1150,150.97,10,Q4
+ORD-1353,2023-08-07,West,Office Supplies,Paper,3897,49.41,9,Q3
+ORD-1354,2023-06-27,North,Office Supplies,Pens,2793,932.62,7,Q2
+ORD-1355,2023-12-14,South,Furniture,Desk,3520,450.63,10,Q4
+ORD-1356,2023-03-29,West,Furniture,Desk,56,15.09,1,Q1
+ORD-1357,2023-12-10,West,Office Supplies,Pens,270,-19.01,5,Q4
+ORD-1358,2023-06-07,East,Clothing,Sneakers,1056,-96.79,8,Q2
+ORD-1359,2023-10-31,North,Office Supplies,Pens,896,207.06,7,Q4
+ORD-1360,2023-06-14,East,Office Supplies,Stapler,1928,242.6,8,Q2
+ORD-1361,2023-02-24,South,Office Supplies,Stapler,1542,360.55,6,Q1
+ORD-1362,2023-05-17,South,Office Supplies,Paper,978,34.8,2,Q2
+ORD-1363,2023-09-05,South,Electronics,Tablet,1980,300.4,6,Q3
+ORD-1364,2023-08-18,North,Furniture,Desk,956,131.67,2,Q3
+ORD-1365,2023-06-09,East,Electronics,Monitor,776,26.15,4,Q2
+ORD-1366,2023-08-27,East,Electronics,Tablet,880,-13.66,5,Q3
+ORD-1367,2023-02-13,South,Office Supplies,Stapler,264,17.23,1,Q1
+ORD-1368,2023-06-13,West,Electronics,Laptop,285,96.44,5,Q2
+ORD-1369,2023-11-11,North,Electronics,Monitor,2432,11.59,8,Q4
+ORD-1370,2023-02-04,East,Office Supplies,Binders,1840,-142.7,8,Q1
+ORD-1371,2023-03-28,South,Office Supplies,Paper,1326,315.68,3,Q1
+ORD-1372,2023-03-20,East,Electronics,Tablet,2448,-44.13,9,Q1
+ORD-1373,2023-08-14,North,Office Supplies,Binders,176,65.16,8,Q3
+ORD-1374,2023-05-27,North,Office Supplies,Stapler,1278,495.24,3,Q2
+ORD-1375,2023-03-01,South,Clothing,Sneakers,2634,649.45,6,Q1
+ORD-1376,2023-10-30,North,Furniture,Sofa,1022,249.79,7,Q4
+ORD-1377,2023-10-02,South,Electronics,Laptop,740,66.11,2,Q4
+ORD-1378,2023-03-18,East,Furniture,Sofa,92,20.21,1,Q1
+ORD-1379,2023-08-15,West,Furniture,Chair,657,1.19,9,Q3
+ORD-1380,2023-08-07,North,Clothing,T-Shirt,3195,-59.42,9,Q3
+ORD-1381,2023-01-09,North,Electronics,Tablet,343,-25.0,7,Q1
+ORD-1382,2023-11-28,West,Furniture,Sofa,756,178.81,7,Q4
+ORD-1383,2023-01-12,South,Clothing,Jeans,1236,312.36,3,Q1
+ORD-1384,2023-09-06,North,Office Supplies,Stapler,921,306.97,3,Q3
+ORD-1385,2023-01-26,East,Clothing,Jacket,279,-25.98,1,Q1
+ORD-1386,2023-12-04,East,Office Supplies,Paper,112,34.95,8,Q4
+ORD-1387,2023-02-17,East,Clothing,Jeans,1020,-37.75,4,Q1
+ORD-1388,2023-12-28,West,Clothing,Sneakers,882,-83.38,7,Q4
+ORD-1389,2023-08-23,East,Electronics,Smartphone,351,-12.38,1,Q3
+ORD-1390,2023-05-06,South,Furniture,Table,3220,-106.9,10,Q2
+ORD-1391,2023-07-25,North,Electronics,Monitor,1116,-108.67,9,Q3
+ORD-1392,2023-10-24,North,Clothing,Jeans,1026,329.75,6,Q4
+ORD-1393,2023-05-28,West,Furniture,Table,3376,-111.09,8,Q2
+ORD-1394,2023-08-04,East,Office Supplies,Binders,342,29.98,1,Q3
+ORD-1395,2023-04-07,West,Clothing,Jacket,2120,128.56,8,Q2
+ORD-1396,2023-06-24,South,Furniture,Desk,591,-6.63,3,Q2
+ORD-1397,2023-11-24,North,Electronics,Monitor,822,146.24,6,Q4
+ORD-1398,2023-03-10,North,Clothing,Sneakers,3267,453.77,9,Q1
+ORD-1399,2023-04-19,East,Electronics,Laptop,1064,-74.08,4,Q2
+ORD-1400,2023-11-17,West,Office Supplies,Stapler,77,2.99,1,Q4
+ORD-1401,2023-09-16,West,Furniture,Sofa,864,333.93,2,Q3
+ORD-1402,2023-05-12,South,Office Supplies,Stapler,2947,459.69,7,Q2
+ORD-1403,2023-12-24,West,Electronics,Tablet,1173,436.82,3,Q4
+ORD-1404,2023-10-09,North,Office Supplies,Stapler,1680,571.22,7,Q4
+ORD-1405,2023-04-29,South,Clothing,Jeans,2088,-159.91,9,Q2
+ORD-1406,2023-04-15,South,Furniture,Sofa,1710,273.61,5,Q2
+ORD-1407,2023-10-10,West,Office Supplies,Paper,1683,216.07,9,Q4
+ORD-1408,2023-10-24,South,Office Supplies,Stapler,776,187.09,4,Q4
+ORD-1409,2023-12-23,West,Electronics,Tablet,572,-6.38,2,Q4
+ORD-1410,2023-06-02,West,Furniture,Desk,1620,-96.72,4,Q2
+ORD-1411,2023-10-30,East,Electronics,Tablet,522,125.22,2,Q4
+ORD-1412,2023-09-11,South,Office Supplies,Pens,1968,191.44,8,Q3
+ORD-1413,2023-12-31,East,Electronics,Smartphone,1374,224.29,3,Q4
+ORD-1414,2023-12-11,West,Clothing,T-Shirt,3024,-241.35,7,Q4
+ORD-1415,2023-03-01,South,Electronics,Tablet,3600,-105.04,8,Q1
+ORD-1416,2023-06-05,North,Furniture,Sofa,434,159.42,1,Q2
+ORD-1417,2023-11-12,East,Electronics,Laptop,576,191.01,9,Q4
+ORD-1418,2023-09-20,West,Electronics,Tablet,2412,709.75,9,Q3
+ORD-1419,2023-03-15,North,Electronics,Monitor,2737,-256.65,7,Q1
+ORD-1420,2023-11-26,North,Office Supplies,Paper,474,148.75,2,Q4
+ORD-1421,2023-08-18,West,Office Supplies,Paper,1520,268.35,10,Q3
+ORD-1422,2023-09-30,West,Electronics,Laptop,1328,-103.58,4,Q3
+ORD-1423,2023-01-25,East,Office Supplies,Paper,164,1.52,2,Q1
+ORD-1424,2023-12-06,North,Furniture,Desk,3110,-143.07,10,Q4
+ORD-1425,2023-10-23,North,Clothing,T-Shirt,1288,417.8,8,Q4
+ORD-1426,2023-04-21,North,Electronics,Monitor,1104,-79.08,3,Q2
+ORD-1427,2023-10-05,South,Furniture,Chair,288,17.38,2,Q4
+ORD-1428,2023-06-30,West,Office Supplies,Paper,155,53.12,5,Q2
+ORD-1429,2023-10-05,West,Clothing,T-Shirt,3108,-282.53,7,Q4
+ORD-1430,2023-05-16,East,Office Supplies,Pens,1220,82.23,5,Q2
+ORD-1431,2023-06-19,North,Office Supplies,Stapler,1770,-112.03,5,Q2
+ORD-1432,2023-06-23,South,Electronics,Tablet,381,51.88,3,Q2
+ORD-1433,2023-12-21,West,Clothing,Sneakers,102,-8.23,2,Q4
+ORD-1434,2023-12-16,North,Office Supplies,Pens,432,131.13,8,Q4
+ORD-1435,2023-03-13,West,Office Supplies,Paper,3736,840.38,8,Q1
+ORD-1436,2023-12-12,West,Furniture,Chair,2736,162.84,6,Q4
+ORD-1437,2023-05-19,South,Electronics,Laptop,290,82.02,10,Q2
+ORD-1438,2023-11-14,North,Office Supplies,Stapler,1045,-95.04,5,Q4
+ORD-1439,2023-04-19,South,Clothing,Sneakers,330,40.96,10,Q2
+ORD-1440,2023-01-24,West,Furniture,Chair,1435,-21.68,7,Q1
+ORD-1441,2023-05-24,South,Office Supplies,Pens,108,28.08,1,Q2
+ORD-1442,2023-12-17,West,Office Supplies,Binders,462,137.58,7,Q4
+ORD-1443,2023-09-09,South,Furniture,Sofa,1359,79.57,3,Q3
+ORD-1444,2023-09-05,South,Furniture,Chair,208,20.86,8,Q3
+ORD-1445,2023-07-14,North,Electronics,Tablet,2100,621.97,5,Q3
+ORD-1446,2023-04-30,South,Electronics,Monitor,282,0.32,1,Q2
+ORD-1447,2023-11-22,West,Office Supplies,Binders,1578,365.48,6,Q4
+ORD-1448,2023-05-06,East,Electronics,Laptop,4670,1120.03,10,Q2
+ORD-1449,2023-08-02,West,Electronics,Tablet,249,36.38,1,Q3
+ORD-1450,2023-10-15,East,Electronics,Monitor,486,-4.96,3,Q4
+ORD-1451,2023-05-24,West,Electronics,Monitor,300,99.68,6,Q2
+ORD-1452,2023-03-31,West,Office Supplies,Paper,293,28.73,1,Q1
+ORD-1453,2023-11-26,West,Electronics,Tablet,1017,91.01,9,Q4
+ORD-1454,2023-03-10,South,Office Supplies,Pens,2250,52.7,10,Q1
+ORD-1455,2023-05-17,East,Electronics,Smartphone,1155,-87.35,3,Q2
+ORD-1456,2023-02-09,East,Clothing,Jacket,732,271.3,6,Q1
+ORD-1457,2023-08-04,East,Furniture,Desk,2646,62.64,9,Q3
+ORD-1458,2023-04-13,North,Clothing,T-Shirt,243,41.45,9,Q2
+ORD-1459,2023-12-31,South,Furniture,Chair,3304,980.57,8,Q4
+ORD-1460,2023-05-24,West,Clothing,Sneakers,882,145.69,6,Q2
+ORD-1461,2023-06-29,North,Furniture,Desk,4460,-171.54,10,Q2
+ORD-1462,2023-12-31,East,Furniture,Desk,272,20.84,8,Q4
+ORD-1463,2023-10-31,West,Furniture,Sofa,368,146.7,2,Q4
+ORD-1464,2023-09-04,West,Electronics,Laptop,2445,935.03,5,Q3
+ORD-1465,2023-07-13,East,Electronics,Monitor,4023,494.5,9,Q3
+ORD-1466,2023-07-09,East,Furniture,Desk,124,15.03,2,Q3
+ORD-1467,2023-05-17,East,Electronics,Tablet,1840,455.77,8,Q2
+ORD-1468,2023-02-18,South,Office Supplies,Paper,2160,-98.4,8,Q1
+ORD-1469,2023-07-20,South,Electronics,Monitor,4059,681.1,9,Q3
+ORD-1470,2023-09-25,South,Furniture,Desk,268,62.49,2,Q3
+ORD-1471,2023-07-25,West,Clothing,Sneakers,1955,-105.89,5,Q3
+ORD-1472,2023-06-08,East,Electronics,Tablet,68,3.8,2,Q2
+ORD-1473,2023-11-27,East,Clothing,T-Shirt,455,-15.52,5,Q4
+ORD-1474,2023-03-31,South,Electronics,Monitor,1449,446.1,7,Q1
+ORD-1475,2023-03-21,West,Electronics,Monitor,1494,70.07,6,Q1
+ORD-1476,2023-10-27,East,Furniture,Sofa,532,-45.93,2,Q4
+ORD-1477,2023-07-23,East,Office Supplies,Pens,1770,504.93,6,Q3
+ORD-1478,2023-04-29,South,Furniture,Desk,4428,653.26,9,Q2
+ORD-1479,2023-12-11,West,Office Supplies,Pens,4500,1567.5,9,Q4
+ORD-1480,2023-04-26,North,Office Supplies,Pens,376,34.74,1,Q2
+ORD-1481,2023-09-11,South,Office Supplies,Binders,1984,65.03,8,Q3
+ORD-1482,2023-01-22,West,Furniture,Desk,724,86.24,2,Q1
+ORD-1483,2023-04-08,East,Furniture,Sofa,3717,467.15,9,Q2
+ORD-1484,2023-06-13,West,Office Supplies,Paper,2472,-10.36,6,Q2
+ORD-1485,2023-07-17,West,Clothing,Sneakers,440,77.18,5,Q3
+ORD-1486,2023-03-13,East,Office Supplies,Pens,308,93.65,4,Q1
+ORD-1487,2023-10-11,North,Electronics,Laptop,300,84.83,5,Q4
+ORD-1488,2023-08-25,South,Office Supplies,Stapler,814,274.36,2,Q3
+ORD-1489,2023-10-08,East,Clothing,Sneakers,4700,215.38,10,Q4
+ORD-1490,2023-06-04,South,Furniture,Desk,3580,-272.35,10,Q2
+ORD-1491,2023-05-21,East,Clothing,T-Shirt,2224,753.21,8,Q2
+ORD-1492,2023-05-18,East,Electronics,Tablet,972,127.31,6,Q2
+ORD-1493,2023-11-09,South,Electronics,Smartphone,771,215.98,3,Q4
+ORD-1494,2023-11-12,South,Clothing,Sneakers,754,11.76,2,Q4
+ORD-1495,2023-01-04,West,Office Supplies,Pens,2238,-56.86,6,Q1
+ORD-1496,2023-07-15,North,Electronics,Tablet,1330,108.81,10,Q3
+ORD-1497,2023-01-16,West,Office Supplies,Paper,1184,-15.27,4,Q1
+ORD-1498,2023-06-19,South,Office Supplies,Pens,1715,-9.31,7,Q2
+ORD-1499,2023-01-19,East,Electronics,Tablet,138,-3.94,3,Q1
+ORD-1500,2023-01-16,North,Electronics,Smartphone,276,53.18,4,Q1
+ORD-1501,2023-09-28,North,Office Supplies,Stapler,42,11.48,2,Q3
+ORD-1502,2023-09-12,North,Furniture,Chair,130,37.2,1,Q3
+ORD-1503,2023-08-28,South,Furniture,Sofa,3340,525.33,10,Q3
+ORD-1504,2023-01-22,West,Clothing,T-Shirt,1096,-99.09,8,Q1
+ORD-1505,2023-12-11,East,Office Supplies,Paper,231,-22.81,7,Q4
+ORD-1506,2023-01-12,North,Clothing,Sneakers,210,49.73,3,Q1
+ORD-1507,2023-06-18,East,Office Supplies,Paper,658,-46.51,7,Q2
+ORD-1508,2023-05-06,North,Office Supplies,Binders,868,243.52,2,Q2
+ORD-1509,2023-08-24,East,Electronics,Laptop,242,53.45,1,Q3
+ORD-1510,2023-03-08,South,Electronics,Smartphone,2912,522.93,8,Q1
+ORD-1511,2023-06-27,East,Clothing,Jeans,217,41.48,7,Q2
+ORD-1512,2023-10-06,West,Electronics,Monitor,1776,560.44,6,Q4
+ORD-1513,2023-05-29,West,Clothing,Sneakers,3654,20.65,9,Q2
+ORD-1514,2023-07-14,West,Furniture,Sofa,1494,296.48,3,Q3
+ORD-1515,2023-05-28,North,Clothing,Sneakers,3141,264.57,9,Q2
+ORD-1516,2023-08-06,South,Electronics,Tablet,126,24.73,3,Q3
+ORD-1517,2023-02-12,South,Furniture,Sofa,576,156.54,4,Q1
+ORD-1518,2023-09-06,North,Furniture,Desk,1422,20.64,3,Q3
+ORD-1519,2023-11-14,East,Office Supplies,Stapler,4230,-316.71,10,Q4
+ORD-1520,2023-09-07,West,Furniture,Desk,657,163.07,9,Q3
+ORD-1521,2023-06-04,West,Electronics,Tablet,825,232.64,5,Q2
+ORD-1522,2023-11-04,North,Electronics,Monitor,1284,200.05,3,Q4
+ORD-1523,2023-05-09,East,Electronics,Smartphone,1988,576.16,7,Q2
+ORD-1524,2023-12-25,East,Electronics,Smartphone,3216,-72.13,8,Q4
+ORD-1525,2023-06-06,West,Office Supplies,Pens,2850,133.05,6,Q2
+ORD-1526,2023-05-09,North,Clothing,T-Shirt,152,48.4,1,Q2
+ORD-1527,2023-04-23,West,Clothing,Jacket,1016,40.23,8,Q2
+ORD-1528,2023-10-05,East,Electronics,Laptop,2478,-204.86,6,Q4
+ORD-1529,2023-02-11,South,Office Supplies,Paper,1446,400.97,3,Q1
+ORD-1530,2023-03-01,South,Office Supplies,Binders,3367,425.16,7,Q1
+ORD-1531,2023-04-16,North,Furniture,Sofa,470,30.41,1,Q2
+ORD-1532,2023-05-19,North,Furniture,Chair,2624,-40.45,8,Q2
+ORD-1533,2023-12-27,West,Clothing,Jacket,153,47.11,3,Q4
+ORD-1534,2023-07-20,East,Office Supplies,Binders,1496,95.04,4,Q3
+ORD-1535,2023-06-17,West,Electronics,Monitor,606,-13.94,2,Q2
+ORD-1536,2023-06-18,West,Electronics,Monitor,1098,-32.85,9,Q2
+ORD-1537,2023-09-16,South,Furniture,Table,2248,-54.85,8,Q3
+ORD-1538,2023-10-09,North,Clothing,T-Shirt,492,46.45,2,Q4
+ORD-1539,2023-11-15,East,Clothing,Sneakers,384,15.6,8,Q4
+ORD-1540,2023-08-16,West,Clothing,Sneakers,544,129.65,8,Q3
+ORD-1541,2023-05-26,North,Office Supplies,Binders,1820,150.44,5,Q2
+ORD-1542,2023-05-10,West,Clothing,Sneakers,3088,937.96,8,Q2
+ORD-1543,2023-05-10,North,Electronics,Monitor,1890,717.17,7,Q2
+ORD-1544,2023-08-14,West,Electronics,Smartphone,102,34.28,6,Q3
+ORD-1545,2023-11-13,East,Clothing,Sneakers,3552,20.42,8,Q4
+ORD-1546,2023-05-05,East,Electronics,Laptop,417,115.16,1,Q2
+ORD-1547,2023-01-28,East,Office Supplies,Paper,1444,387.94,4,Q1
+ORD-1548,2023-02-23,North,Furniture,Sofa,840,246.19,7,Q1
+ORD-1549,2023-07-03,North,Electronics,Laptop,180,17.64,10,Q3
+ORD-1550,2023-01-04,East,Electronics,Tablet,3672,396.01,9,Q1
+ORD-1551,2023-12-01,East,Office Supplies,Paper,849,-15.36,3,Q4
+ORD-1552,2023-01-29,South,Electronics,Tablet,170,26.66,1,Q1
+ORD-1553,2023-06-10,East,Office Supplies,Stapler,445,129.22,5,Q2
+ORD-1554,2023-03-05,South,Electronics,Laptop,1576,629.61,8,Q1
+ORD-1555,2023-07-09,East,Clothing,Jacket,768,225.95,6,Q3
+ORD-1556,2023-10-27,North,Office Supplies,Stapler,519,-28.91,3,Q4
+ORD-1557,2023-08-14,West,Office Supplies,Binders,3970,595.36,10,Q3
+ORD-1558,2023-02-23,East,Clothing,Jacket,3248,1180.88,8,Q1
+ORD-1559,2023-09-19,South,Furniture,Table,2664,737.01,8,Q3
+ORD-1560,2023-11-15,West,Furniture,Sofa,1424,-121.91,8,Q4
+ORD-1561,2023-03-14,South,Office Supplies,Stapler,337,17.91,1,Q1
+ORD-1562,2023-08-12,North,Furniture,Desk,2370,284.37,5,Q3
+ORD-1563,2023-02-01,East,Furniture,Sofa,635,45.06,5,Q1
+ORD-1564,2023-06-04,West,Furniture,Desk,208,70.79,8,Q2
+ORD-1565,2023-12-31,North,Electronics,Smartphone,1835,164.09,5,Q4
+ORD-1566,2023-08-06,North,Furniture,Chair,1953,484.94,7,Q3
+ORD-1567,2023-12-16,West,Furniture,Chair,2376,136.65,9,Q4
+ORD-1568,2023-10-07,North,Electronics,Tablet,286,71.01,1,Q4
+ORD-1569,2023-06-08,West,Furniture,Desk,2320,832.42,8,Q2
+ORD-1570,2023-08-11,South,Furniture,Table,456,176.49,2,Q3
+ORD-1571,2023-03-27,South,Clothing,Sneakers,3960,391.62,9,Q1
+ORD-1572,2023-03-28,South,Electronics,Monitor,1568,450.65,4,Q1
+ORD-1573,2023-02-27,East,Clothing,Sneakers,381,-21.62,3,Q1
+ORD-1574,2023-09-03,West,Clothing,T-Shirt,174,-3.52,1,Q3
+ORD-1575,2023-09-29,West,Electronics,Tablet,1344,58.38,6,Q3
+ORD-1576,2023-01-05,South,Office Supplies,Pens,328,29.33,4,Q1
+ORD-1577,2023-03-11,North,Clothing,Jeans,2504,-32.12,8,Q1
+ORD-1578,2023-01-23,West,Office Supplies,Paper,2320,919.5,8,Q1
+ORD-1579,2023-11-23,South,Office Supplies,Binders,861,183.3,3,Q4
+ORD-1580,2023-06-15,West,Furniture,Sofa,920,-74.76,10,Q2
+ORD-1581,2023-09-16,West,Office Supplies,Binders,4870,1678.42,10,Q3
+ORD-1582,2023-04-20,South,Furniture,Desk,712,207.03,2,Q2
+ORD-1583,2023-07-15,East,Clothing,Jacket,3897,1233.95,9,Q3
+ORD-1584,2023-04-10,East,Office Supplies,Binders,562,138.07,2,Q2
+ORD-1585,2023-02-05,North,Furniture,Sofa,3416,-207.79,7,Q1
+ORD-1586,2023-04-06,West,Clothing,Jacket,974,220.93,2,Q2
+ORD-1587,2023-01-07,East,Clothing,Jacket,705,90.48,5,Q1
+ORD-1588,2023-04-18,North,Electronics,Smartphone,470,45.22,10,Q2
+ORD-1589,2023-11-06,South,Electronics,Tablet,705,-48.21,5,Q4
+ORD-1590,2023-11-18,North,Clothing,T-Shirt,2040,517.13,6,Q4
+ORD-1591,2023-02-19,South,Office Supplies,Binders,1806,206.09,7,Q1
+ORD-1592,2023-09-19,North,Office Supplies,Stapler,2544,697.99,8,Q3
+ORD-1593,2023-12-01,West,Clothing,Jacket,3627,513.59,9,Q4
+ORD-1594,2023-09-18,East,Electronics,Monitor,1208,341.12,8,Q3
+ORD-1595,2023-08-12,West,Furniture,Sofa,46,10.57,1,Q3
+ORD-1596,2023-11-14,West,Electronics,Tablet,1095,-44.81,3,Q4
+ORD-1597,2023-05-29,West,Clothing,Jacket,180,15.76,5,Q2
+ORD-1598,2023-01-24,South,Electronics,Smartphone,424,63.49,2,Q1
+ORD-1599,2023-01-25,North,Office Supplies,Pens,635,247.35,5,Q1
+ORD-1600,2023-07-07,South,Office Supplies,Paper,1629,296.0,9,Q3
+ORD-1601,2023-04-17,North,Clothing,Sneakers,2155,662.44,5,Q2
+ORD-1602,2023-11-21,East,Clothing,T-Shirt,11,1.53,1,Q4
+ORD-1603,2023-02-24,East,Office Supplies,Paper,155,49.44,1,Q1
+ORD-1604,2023-05-16,East,Furniture,Chair,842,-4.97,2,Q2
+ORD-1605,2023-07-27,West,Clothing,Jeans,2928,805.86,6,Q3
+ORD-1606,2023-07-30,East,Electronics,Monitor,365,55.45,1,Q3
+ORD-1607,2023-12-08,North,Office Supplies,Pens,181,-7.62,1,Q4
+ORD-1608,2023-01-17,South,Office Supplies,Stapler,290,92.03,5,Q1
+ORD-1609,2023-04-06,North,Furniture,Sofa,1302,392.08,7,Q2
+ORD-1610,2023-12-27,East,Furniture,Table,720,100.64,2,Q4
+ORD-1611,2023-06-12,East,Furniture,Table,2094,786.81,6,Q2
+ORD-1612,2023-06-08,South,Office Supplies,Pens,912,-64.89,2,Q2
+ORD-1613,2023-02-08,South,Electronics,Smartphone,1260,222.1,9,Q1
+ORD-1614,2023-12-18,West,Clothing,Sneakers,2010,-77.73,5,Q4
+ORD-1615,2023-09-16,West,Clothing,Jeans,24,8.75,1,Q3
+ORD-1616,2023-02-23,West,Furniture,Table,474,-30.37,1,Q1
+ORD-1617,2023-12-23,South,Electronics,Tablet,692,109.24,2,Q4
+ORD-1618,2023-03-31,East,Furniture,Chair,1812,460.78,4,Q1
+ORD-1619,2023-01-29,East,Clothing,T-Shirt,162,36.85,1,Q1
+ORD-1620,2023-02-20,West,Office Supplies,Paper,3231,-67.82,9,Q1
+ORD-1621,2023-06-03,South,Office Supplies,Pens,199,70.37,1,Q2
+ORD-1622,2023-12-26,West,Furniture,Sofa,1218,145.44,7,Q4
+ORD-1623,2023-01-13,West,Electronics,Smartphone,388,84.28,1,Q1
+ORD-1624,2023-03-28,West,Office Supplies,Paper,992,293.01,8,Q1
+ORD-1625,2023-02-24,North,Furniture,Desk,756,-0.14,6,Q1
+ORD-1626,2023-05-06,East,Clothing,T-Shirt,837,166.54,3,Q2
+ORD-1627,2023-04-24,West,Office Supplies,Pens,936,304.79,2,Q2
+ORD-1628,2023-07-27,West,Clothing,Sneakers,760,242.95,8,Q3
+ORD-1629,2023-01-05,West,Office Supplies,Pens,1137,373.02,3,Q1
+ORD-1630,2023-09-05,South,Furniture,Desk,1052,382.63,4,Q3
+ORD-1631,2023-12-29,North,Furniture,Sofa,1203,-25.23,3,Q4
+ORD-1632,2023-08-18,North,Furniture,Sofa,167,40.42,1,Q3
+ORD-1633,2023-07-24,West,Clothing,T-Shirt,1312,106.66,8,Q3
+ORD-1634,2023-06-08,East,Electronics,Monitor,422,-38.63,2,Q2
+ORD-1635,2023-07-31,West,Electronics,Tablet,528,120.66,4,Q3
+ORD-1636,2023-01-05,South,Office Supplies,Binders,1470,30.65,10,Q1
+ORD-1637,2023-09-22,East,Office Supplies,Stapler,868,108.37,4,Q3
+ORD-1638,2023-01-06,North,Electronics,Smartphone,320,110.78,5,Q1
+ORD-1639,2023-02-05,North,Clothing,T-Shirt,1795,507.55,5,Q1
+ORD-1640,2023-10-24,South,Office Supplies,Stapler,642,95.54,3,Q4
+ORD-1641,2023-04-21,East,Electronics,Laptop,134,19.23,1,Q2
+ORD-1642,2023-12-07,East,Clothing,T-Shirt,3010,-292.71,7,Q4
+ORD-1643,2023-09-24,West,Clothing,T-Shirt,978,-70.68,6,Q3
+ORD-1644,2023-09-30,East,Office Supplies,Stapler,2736,-52.35,8,Q3
+ORD-1645,2023-11-27,West,Electronics,Smartphone,2863,706.17,7,Q4
+ORD-1646,2023-12-06,West,Electronics,Tablet,186,8.33,3,Q4
+ORD-1647,2023-05-24,North,Office Supplies,Pens,946,176.75,2,Q2
+ORD-1648,2023-12-12,West,Clothing,Jeans,2310,746.14,5,Q4
+ORD-1649,2023-05-19,North,Office Supplies,Paper,2778,600.06,6,Q2
+ORD-1650,2023-05-18,East,Clothing,Sneakers,956,142.26,4,Q2
+ORD-1651,2023-07-10,East,Clothing,T-Shirt,768,-53.78,2,Q3
+ORD-1652,2023-03-20,North,Furniture,Desk,1668,18.34,6,Q1
+ORD-1653,2023-09-14,South,Furniture,Desk,796,232.96,4,Q3
+ORD-1654,2023-01-25,South,Clothing,Jacket,872,295.56,8,Q1
+ORD-1655,2023-06-01,West,Clothing,Sneakers,2052,-186.13,9,Q2
+ORD-1656,2023-07-10,North,Clothing,Jeans,1673,54.12,7,Q3
+ORD-1657,2023-08-24,South,Office Supplies,Paper,3008,415.74,8,Q3
+ORD-1658,2023-01-24,North,Furniture,Sofa,252,0.74,2,Q1
+ORD-1659,2023-07-12,North,Office Supplies,Binders,50,-3.93,2,Q3
+ORD-1660,2023-06-19,West,Electronics,Smartphone,2550,-46.47,10,Q2
+ORD-1661,2023-12-18,South,Furniture,Desk,936,172.38,6,Q4
+ORD-1662,2023-07-11,East,Office Supplies,Stapler,1716,502.74,4,Q3
+ORD-1663,2023-04-22,West,Office Supplies,Binders,2352,585.47,7,Q2
+ORD-1664,2023-12-09,East,Electronics,Monitor,411,-30.13,1,Q4
+ORD-1665,2023-01-26,North,Furniture,Desk,885,86.34,3,Q1
+ORD-1666,2023-09-30,North,Furniture,Desk,732,141.55,6,Q3
+ORD-1667,2023-02-25,East,Electronics,Tablet,1998,-61.92,6,Q1
+ORD-1668,2023-12-11,East,Office Supplies,Pens,68,5.58,1,Q4
+ORD-1669,2023-12-03,West,Furniture,Desk,2430,645.39,10,Q4
+ORD-1670,2023-11-05,South,Furniture,Table,2470,666.88,10,Q4
+ORD-1671,2023-04-10,South,Electronics,Monitor,1260,-47.99,10,Q2
+ORD-1672,2023-02-18,West,Office Supplies,Pens,152,40.13,8,Q1
+ORD-1673,2023-07-29,East,Electronics,Laptop,1127,136.2,7,Q3
+ORD-1674,2023-10-23,East,Electronics,Laptop,606,228.92,2,Q4
+ORD-1675,2023-06-29,West,Furniture,Sofa,1970,-139.43,5,Q2
+ORD-1676,2023-01-07,West,Office Supplies,Binders,49,-0.86,1,Q1
+ORD-1677,2023-02-24,West,Clothing,Sneakers,81,21.21,1,Q1
+ORD-1678,2023-12-03,South,Clothing,Jeans,1176,358.41,6,Q4
+ORD-1679,2023-04-10,West,Electronics,Monitor,2046,531.89,6,Q2
+ORD-1680,2023-08-27,North,Furniture,Sofa,4482,60.3,9,Q3
+ORD-1681,2023-11-27,West,Office Supplies,Stapler,2618,1026.14,7,Q4
+ORD-1682,2023-04-20,South,Office Supplies,Binders,1550,492.83,10,Q2
+ORD-1683,2023-06-18,North,Electronics,Monitor,1608,60.56,6,Q2
+ORD-1684,2023-03-23,West,Electronics,Monitor,938,196.76,2,Q1
+ORD-1685,2023-08-08,West,Furniture,Chair,1048,320.14,8,Q3
+ORD-1686,2023-04-10,North,Office Supplies,Binders,261,6.19,1,Q2
+ORD-1687,2023-12-16,South,Office Supplies,Paper,1008,-52.88,8,Q4
+ORD-1688,2023-09-19,South,Office Supplies,Binders,88,23.09,4,Q3
+ORD-1689,2023-01-17,West,Electronics,Monitor,1095,342.76,5,Q1
+ORD-1690,2023-05-04,West,Clothing,Sneakers,959,-59.63,7,Q2
+ORD-1691,2023-02-02,North,Office Supplies,Binders,59,3.0,1,Q1
+ORD-1692,2023-09-21,South,Office Supplies,Paper,2080,66.51,10,Q3
+ORD-1693,2023-11-16,East,Furniture,Desk,560,-42.84,10,Q4
+ORD-1694,2023-07-14,East,Clothing,T-Shirt,3040,753.44,8,Q3
+ORD-1695,2023-02-02,South,Electronics,Monitor,2737,273.1,7,Q1
+ORD-1696,2023-07-21,West,Furniture,Chair,219,25.11,1,Q3
+ORD-1697,2023-04-13,East,Furniture,Chair,1719,372.43,9,Q2
+ORD-1698,2023-04-18,South,Office Supplies,Paper,336,0.58,6,Q2
+ORD-1699,2023-09-08,North,Office Supplies,Paper,2784,679.79,8,Q3
+ORD-1700,2023-05-27,West,Clothing,Sneakers,400,76.85,2,Q2
+ORD-1701,2023-10-31,East,Furniture,Sofa,4140,232.91,10,Q4
+ORD-1702,2023-04-10,East,Furniture,Chair,252,48.66,2,Q2
+ORD-1703,2023-01-06,West,Electronics,Smartphone,1827,-182.02,7,Q1
+ORD-1704,2023-05-24,East,Clothing,Jacket,4900,379.8,10,Q2
+ORD-1705,2023-09-20,South,Electronics,Monitor,1218,-18.92,7,Q3
+ORD-1706,2023-06-24,West,Electronics,Laptop,1560,459.25,4,Q2
+ORD-1707,2023-12-31,West,Clothing,Jacket,906,0.53,3,Q4
+ORD-1708,2023-01-14,South,Office Supplies,Stapler,735,174.5,7,Q1
+ORD-1709,2023-03-20,West,Electronics,Tablet,658,-64.38,7,Q1
+ORD-1710,2023-05-02,West,Office Supplies,Stapler,560,109.69,10,Q2
+ORD-1711,2023-01-06,North,Clothing,Sneakers,704,268.98,8,Q1
+ORD-1712,2023-09-27,South,Furniture,Table,3312,-317.69,8,Q3
+ORD-1713,2023-04-10,North,Furniture,Desk,3690,606.21,9,Q2
+ORD-1714,2023-04-08,North,Electronics,Smartphone,1795,104.53,5,Q2
+ORD-1715,2023-11-16,South,Furniture,Chair,1764,-119.61,7,Q4
+ORD-1716,2023-11-23,East,Electronics,Smartphone,2934,905.06,6,Q4
+ORD-1717,2023-06-09,North,Furniture,Table,1960,95.1,10,Q2
+ORD-1718,2023-03-03,East,Electronics,Tablet,4040,1358.85,10,Q1
+ORD-1719,2023-05-17,North,Office Supplies,Stapler,948,203.47,3,Q2
+ORD-1720,2023-06-24,East,Electronics,Laptop,675,247.1,5,Q2
+ORD-1721,2023-09-01,East,Electronics,Smartphone,182,25.47,1,Q3
+ORD-1722,2023-10-03,East,Office Supplies,Stapler,2016,323.38,9,Q4
+ORD-1723,2023-10-05,South,Office Supplies,Pens,1855,278.46,7,Q4
+ORD-1724,2023-04-18,South,Office Supplies,Pens,966,52.41,6,Q2
+ORD-1725,2023-07-07,West,Electronics,Smartphone,640,17.67,4,Q3
+ORD-1726,2023-12-28,East,Electronics,Laptop,4720,1509.32,10,Q4
+ORD-1727,2023-08-15,East,Electronics,Smartphone,3400,-219.24,8,Q3
+ORD-1728,2023-01-28,West,Office Supplies,Stapler,1940,333.5,10,Q1
+ORD-1729,2023-09-15,East,Clothing,Sneakers,212,-14.27,1,Q3
+ORD-1730,2023-10-19,South,Furniture,Desk,2100,103.52,5,Q4
+ORD-1731,2023-11-03,North,Electronics,Laptop,1696,501.83,4,Q4
+ORD-1732,2023-06-11,South,Office Supplies,Pens,141,56.22,1,Q2
+ORD-1733,2023-09-09,West,Electronics,Monitor,3808,1086.58,8,Q3
+ORD-1734,2023-04-18,South,Furniture,Table,66,16.93,1,Q2
+ORD-1735,2023-01-16,West,Furniture,Sofa,369,72.31,1,Q1
+ORD-1736,2023-08-22,East,Electronics,Laptop,2420,138.17,5,Q3
+ORD-1737,2023-10-28,South,Office Supplies,Pens,3672,-86.06,8,Q4
+ORD-1738,2023-12-26,North,Office Supplies,Pens,592,-36.18,2,Q4
+ORD-1739,2023-02-14,South,Clothing,T-Shirt,1948,-36.13,4,Q1
+ORD-1740,2023-02-25,East,Clothing,Jeans,187,30.02,1,Q1
+ORD-1741,2023-12-12,West,Furniture,Chair,456,170.39,8,Q4
+ORD-1742,2023-05-20,East,Office Supplies,Pens,1134,166.99,7,Q2
+ORD-1743,2023-12-10,South,Furniture,Table,401,21.47,1,Q4
+ORD-1744,2023-04-06,East,Furniture,Desk,164,29.2,4,Q2
+ORD-1745,2023-06-11,South,Clothing,Jeans,3648,1092.93,8,Q2
+ORD-1746,2023-11-21,North,Furniture,Desk,2025,3.74,9,Q4
+ORD-1747,2023-07-13,North,Clothing,Jeans,1420,166.06,5,Q3
+ORD-1748,2023-03-08,East,Office Supplies,Paper,966,324.75,2,Q1
+ORD-1749,2023-06-12,South,Office Supplies,Stapler,324,110.49,2,Q2
+ORD-1750,2023-12-04,South,Office Supplies,Binders,2485,382.33,5,Q4
+ORD-1751,2023-11-29,East,Electronics,Smartphone,1160,435.6,10,Q4
+ORD-1752,2023-11-14,North,Furniture,Chair,117,-9.36,1,Q4
+ORD-1753,2023-09-01,North,Electronics,Laptop,4790,131.66,10,Q3
+ORD-1754,2023-08-15,East,Furniture,Sofa,3864,1441.6,8,Q3
+ORD-1755,2023-05-17,West,Office Supplies,Stapler,342,70.31,9,Q2
+ORD-1756,2023-05-29,East,Office Supplies,Paper,389,73.93,1,Q2
+ORD-1757,2023-01-23,East,Office Supplies,Stapler,596,87.63,4,Q1
+ORD-1758,2023-07-14,East,Furniture,Table,3493,491.51,7,Q3
+ORD-1759,2023-09-06,West,Electronics,Smartphone,360,-20.38,10,Q3
+ORD-1760,2023-05-03,West,Furniture,Desk,250,-19.82,10,Q2
+ORD-1761,2023-04-02,West,Office Supplies,Paper,2184,194.66,7,Q2
+ORD-1762,2023-10-22,West,Furniture,Desk,58,1.7,2,Q4
+ORD-1763,2023-08-11,South,Clothing,Jacket,2149,-88.67,7,Q3
+ORD-1764,2023-07-09,East,Office Supplies,Stapler,868,-40.03,4,Q3
+ORD-1765,2023-03-09,East,Electronics,Tablet,916,249.23,2,Q1
+ORD-1766,2023-11-10,West,Furniture,Chair,2424,246.64,6,Q4
+ORD-1767,2023-07-17,North,Electronics,Tablet,660,248.15,3,Q3
+ORD-1768,2023-11-18,North,Furniture,Desk,3200,1112.77,10,Q4
+ORD-1769,2023-01-22,West,Office Supplies,Stapler,3160,-6.17,10,Q1
+ORD-1770,2023-12-30,South,Office Supplies,Binders,352,133.39,1,Q4
+ORD-1771,2023-04-15,South,Clothing,Sneakers,465,131.11,1,Q2
+ORD-1772,2023-04-05,North,Clothing,Jeans,30,10.56,2,Q2
+ORD-1773,2023-04-09,East,Furniture,Table,504,-1.38,8,Q2
+ORD-1774,2023-05-05,North,Furniture,Sofa,455,134.86,5,Q2
+ORD-1775,2023-05-07,North,Office Supplies,Stapler,120,38.36,1,Q2
+ORD-1776,2023-05-17,East,Electronics,Tablet,856,287.14,4,Q2
+ORD-1777,2023-02-23,South,Clothing,T-Shirt,1191,2.53,3,Q1
+ORD-1778,2023-06-11,West,Clothing,Jacket,437,116.11,1,Q2
+ORD-1779,2023-10-25,East,Office Supplies,Paper,1416,449.79,3,Q4
+ORD-1780,2023-03-08,North,Clothing,Jacket,1722,232.86,7,Q1
+ORD-1781,2023-09-03,North,Clothing,Sneakers,240,72.92,8,Q3
+ORD-1782,2023-05-10,West,Office Supplies,Binders,830,60.81,5,Q2
+ORD-1783,2023-04-02,North,Furniture,Table,2840,1050.79,10,Q2
+ORD-1784,2023-11-26,South,Furniture,Sofa,3570,158.17,10,Q4
+ORD-1785,2023-03-29,West,Office Supplies,Binders,3000,837.23,6,Q1
+ORD-1786,2023-02-18,West,Electronics,Smartphone,1560,600.26,6,Q1
+ORD-1787,2023-12-17,East,Office Supplies,Binders,3276,1169.51,7,Q4
+ORD-1788,2023-01-03,East,Electronics,Tablet,417,-33.36,1,Q1
+ORD-1789,2023-05-26,East,Electronics,Monitor,4780,1355.57,10,Q2
+ORD-1790,2023-12-13,West,Clothing,T-Shirt,2425,685.89,5,Q4
+ORD-1791,2023-12-14,West,Electronics,Smartphone,1844,675.16,4,Q4
+ORD-1792,2023-12-25,West,Clothing,Sneakers,1128,329.98,4,Q4
+ORD-1793,2023-06-21,East,Furniture,Desk,3210,-190.46,10,Q2
+ORD-1794,2023-12-10,North,Clothing,Jeans,1998,-69.5,9,Q4
+ORD-1795,2023-12-26,West,Electronics,Laptop,780,67.51,3,Q4
+ORD-1796,2023-05-30,North,Furniture,Desk,126,29.38,7,Q2
+ORD-1797,2023-11-13,West,Clothing,Jacket,2748,747.99,6,Q4
+ORD-1798,2023-03-07,South,Electronics,Laptop,1455,232.53,5,Q1
+ORD-1799,2023-12-26,North,Electronics,Tablet,2448,765.02,6,Q4
+ORD-1800,2023-10-05,West,Furniture,Sofa,837,299.28,3,Q4
