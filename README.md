@@ -2,7 +2,12 @@
 
 **Ask plain-English questions about your data. Get instant AI-powered answers.**
 
+🚀 **Try it live:** [scanq-gdqv.onrender.com](https://scanq-gdqv.onrender.com) (Deployed on Render - *Note: Usage is limited per day due to free tier AI limits*)
+
+*(Note: If you want example datasets to use and test the app with, we have included some right here in this repository!)*
+
 scanq is a lightweight full-stack web app that lets you upload a CSV or Excel file and query it in plain English — no SQL, no code, no formulas required. The AI reads your dataset, writes the Pandas code, runs it securely, and returns a clear human-readable answer along with a supporting data table.
+
 
 ---
 
@@ -176,9 +181,8 @@ The code execution is sandboxed — AI-generated code only has access to a limit
 ## Known Limitations
 
 - **Single user at a time** — the uploaded dataset is stored in memory and shared globally. Concurrent users will overwrite each other's data. Fine for personal use, needs a session store for multi-user production.
-- **Free LLM tier** — OpenRouter's free models may be rate-limited. If you see a "Too Many Requests" error, wait a moment and try again.
+- **Free LLM tier** — This project uses OpenRouter's free models, which means usage is limited per day. If you see a "Too Many Requests" error, the daily free tier limit may have been reached.
 - **Speed vs. Cost** — Because this project is configured to use a completely free, massive open-source AI model (Nvidia Nemotron 340B), answers may take a little longer to generate than with a paid model like GPT-4. It's well worth the wait — you get enterprise-grade reasoning entirely for free, and it always gets the job done.
-- **Code execution** — AI-generated Pandas code is sandboxed but not fully isolated. For production with untrusted inputs, consider running execution in a Docker container or serverless sandbox.
 
 ---
 
