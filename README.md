@@ -177,25 +177,17 @@ The code execution is sandboxed — AI-generated code only has access to a limit
 | **Environment variables** | ✅ Set in dashboard | ✅ Set in dashboard |
 | **Best for** | Full-stack apps with Python backends | Pure frontend or Next.js apps |
 
-**Use Render because:** scanq has a Python/FastAPI backend that needs to run as a persistent server. Vercel is designed for frontend and Next.js — it doesn't natively support FastAPI as a standalone web service without complex workarounds.
+### How to deploy on Render (1-Click Method)
 
-### How to deploy on Render (Single Service)
+We have added a `render.yaml` blueprint to the repository, meaning you can deploy the entire app with **zero configuration** required.
 
-To make deployment easier, the app is configured to serve both the FastAPI backend and the React frontend from a single Web Service on Render.
+1. Go to your Render Dashboard.
+2. Click **New** -> **Blueprint**.
+3. Connect your GitHub repository (`scanq`).
+4. Render will automatically detect the settings and prompt you to enter your `OPENROUTER_API_KEY`.
+5. Click **Apply**.
 
-1. Create a new **Web Service** on Render
-2. Connect your GitHub repo
-3. Leave the **Root Directory** empty (deploying from the repository root)
-4. Set the **Build Command** to build both the frontend and install backend dependencies:
-   ```bash
-   cd frontend && npm install && npm run build && cd ../backend && pip install -r requirements.txt
-   ```
-5. Set the **Start Command** to run the FastAPI server:
-   ```bash
-   cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
-   ```
-6. Add environment variable: `OPENROUTER_API_KEY` → your key
-7. Deploy! Your app will be available at the Render public URL (e.g., `https://scanq.onrender.com`). The backend will automatically serve the built React files.
+Render will automatically run the build script, install all dependencies for both the frontend and backend, and launch your unified full-stack application!
 
 ---
 
