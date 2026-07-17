@@ -8,7 +8,7 @@ import { AnswerCard } from './components/AnswerCard';
 import { TableView } from './components/TableView';
 import Aurora from './components/Aurora';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = '';
 
 interface ColumnInfo {
   name: string;

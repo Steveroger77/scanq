@@ -179,34 +179,23 @@ The code execution is sandboxed — AI-generated code only has access to a limit
 
 **Use Render because:** scanq has a Python/FastAPI backend that needs to run as a persistent server. Vercel is designed for frontend and Next.js — it doesn't natively support FastAPI as a standalone web service without complex workarounds.
 
-### How to deploy on Render
+### How to deploy on Render (Single Service)
 
-**Backend (Web Service):**
+To make deployment easier, the app is configured to serve both the FastAPI backend and the React frontend from a single Web Service on Render.
+
 1. Create a new **Web Service** on Render
 2. Connect your GitHub repo
-3. Set **Root Directory** to `backend`
-4. Set **Build Command**: `pip install -r requirements.txt`
-5. Set **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+3. Leave the **Root Directory** empty (deploying from the repository root)
+4. Set the **Build Command** to build both the frontend and install backend dependencies:
+   ```bash
+   cd frontend && npm install && npm run build && cd ../backend && pip install -r requirements.txt
+   ```
+5. Set the **Start Command** to run the FastAPI server:
+   ```bash
+   cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
+   ```
 6. Add environment variable: `OPENROUTER_API_KEY` → your key
-7. After deploy, copy the public URL (e.g. `https://scanq-api.onrender.com`)
-
-**Frontend (Static Site):**
-1. Create a new **Static Site** on Render
-2. Connect the same repo
-3. Set **Root Directory** to `frontend`
-4. Set **Build Command**: `npm install && npm run build`
-5. Set **Publish Directory**: `dist`
-6. Add environment variable: `VITE_API_URL` → your backend Render URL
-
-Then update `App.tsx`:
-```ts
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-```
-
-Also update `main.py` CORS to allow your frontend Render URL:
-```python
-allow_origins=["https://your-scanq-frontend.onrender.com"]
-```
+7. Deploy! Your app will be available at the Render public URL (e.g., `https://scanq.onrender.com`). The backend will automatically serve the built React files.
 
 ---
 

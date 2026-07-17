@@ -94,3 +94,23 @@ async def ask_question(req: QuestionRequest):
     except Exception as e:
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
+
+import os
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+# Serve the compiled frontend if the 'dist' directory exists
+frontend_dist = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend", "dist")
+
+if os.path.isdir(frontend_dist):
+    # Mount the assets directory directly
+    app.mount("/assets", StaticFiles(directory=os.path.join(frontend_dist, "assets")), name="assets")
+    
+    # Catch-all route for the React SPA
+    @app.get("/{full_path:path}")
+    async def serve_react_app(full_path: str):
+        # Allow checking if specific files exist in dist (like icons.svg or vite.svg)
+        potential_file = os.path.join(frontend_dist, full_path)
+        if full_path and os.path.isfile(potential_file):
+            return FileResponse(potential_file)
+        return FileResponse(os.path.join(frontend_dist, "index.html"))
