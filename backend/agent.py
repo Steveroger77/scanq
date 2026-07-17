@@ -31,7 +31,7 @@ Question: {question}
 """
 
     payload = {
-        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_prompt}
@@ -54,12 +54,10 @@ Question: {question}
 
     try:
         content = content.strip()
-        if content.startswith("```json"):
-            content = content[7:]
-            content = content[:content.rfind("```")].strip()
-        elif content.startswith("```"):
-            content = content[3:]
-            content = content[:content.rfind("```")].strip()
+        start = content.find('{')
+        end = content.rfind('}')
+        if start != -1 and end != -1:
+            content = content[start:end+1]
         return json.loads(content)
     except json.JSONDecodeError:
         raise ValueError("Failed to parse LLM response as JSON. Response: " + content)
@@ -78,7 +76,7 @@ def generate_suggested_questions(schema: str, sample_rows: str) -> list:
     user_prompt = f"Dataset Schema:\n{schema}\n\nSample Rows:\n{sample_rows}"
 
     payload = {
-        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "messages": [
             {"role": "system", "content": SUGGESTION_PROMPT},
             {"role": "user", "content": user_prompt}
@@ -96,12 +94,12 @@ def generate_suggested_questions(schema: str, sample_rows: str) -> list:
             data = response.json()
             content = data["choices"][0]["message"]["content"]
             content = content.strip()
-            if content.startswith("```json"):
-                content = content[7:]
-                content = content[:content.rfind("```")].strip()
-            elif content.startswith("```"):
-                content = content[3:]
-                content = content[:content.rfind("```")].strip()
+            
+            start = content.find('[')
+            end = content.rfind(']')
+            if start != -1 and end != -1:
+                content = content[start:end+1]
+                
             suggestions = json.loads(content)
             if isinstance(suggestions, list) and len(suggestions) > 0:
                 return suggestions[:3]
