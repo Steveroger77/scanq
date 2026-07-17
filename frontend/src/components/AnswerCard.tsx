@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 interface AnswerCardProps {
   answer: string | number | null;

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import axios from 'axios';
 import type { CancelTokenSource } from 'axios';
 import { Upload } from './components/Upload';
